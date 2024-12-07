@@ -1,3 +1,5 @@
+#include "shell_sort.hpp"
+
 void shell_Sort(int arr[], int arrsize, int gaps[], int gapssize){
     int ptr = gapssize - 1;
     for (int gap = gaps[ptr]; gap > 0;) {

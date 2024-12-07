@@ -1,3 +1,5 @@
+#include "insert_sort.hpp"
+
 void insert_sort(int A[], int size){
     for (int i = 0; i < size; ++i){
         int j = i;

@@ -1,3 +1,5 @@
+#include "merge_sort.hpp"
+
 void Merge(int A[], int p, int q, int r){
     int n1 = q - p + 1;
     int L[n1] = {};
